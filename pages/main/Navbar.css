@@ -1,0 +1,16 @@
+.navbar-brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  padding: 8px 15px;
+}
+
+.form-control {
+  width: 250px;
+}
+
+.btn {
+  padding: 6px 12px;
+}
