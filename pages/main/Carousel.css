@@ -1,8 +1,0 @@
-.carousel-image {
-  max-height: 500px; /* Set the maximum height */
-  object-fit: cover; /* Ensures the image is scaled without distortion */
-}
-
-.carousel-inner {
-  max-height: 500px; /* Limit the overall height of the carousel */
-}
