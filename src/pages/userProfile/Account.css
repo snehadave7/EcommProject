@@ -1,0 +1,55 @@
+/* Custom Sidebar Styles */
+.custom-sidebar .offcanvas-body {
+  background-color: #343a40; /* Dark background for sidebar */
+  color: #fff; /* White text */
+  padding: 20px;
+}
+
+/* Styling for list items */
+.custom-sidebar .list-group-item {
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for list items */
+.custom-sidebar .list-group-item:hover {
+  background-color: #495057;
+  transform: translateX(5px); /* Slide effect */
+}
+
+/* Add some padding for the sidebar header */
+.custom-sidebar .offcanvas-header {
+  background-color: #23272b; /* Darker header background */
+  color: #fff;
+  border-bottom: 1px solid #444;
+}
+
+/* Adjust close button style */
+.custom-sidebar .btn-close {
+  color: #fff; /* White close button */
+}
+
+/* Button to toggle the sidebar */
+button.m-3 {
+  font-size: 1rem;
+  padding: 10px 15px;
+  /* background-color: #007bff; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.m-3:hover {
+  background-color: #0056b3;
+}
+
+/* Add transition effect to Offcanvas */
+.custom-sidebar {
+  transition: transform 0.3s ease-in-out;
+}

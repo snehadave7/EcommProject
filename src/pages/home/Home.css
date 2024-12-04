@@ -1,0 +1,24 @@
+.home-page {
+  background-color: #c6d3f5;
+}
+
+.my-4 {
+  background-color: #c6d3f5;
+}
+/* Bestsellers Section */
+.bestsellers-section {
+  background-color: #c6d3f5; /* Light gray background */
+}
+
+.bestsellers-section h2 {
+  color: #343a40; /* Darker text */
+}
+
+/* Categories Section */
+.categories-section {
+  background-color: #c6d3f5;
+}
+
+.categories-section h2 {
+  color: #343a40; /* Primary color text */
+}

@@ -1,0 +1,20 @@
+.review {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* .img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+} */
+.img-fluid {
+  max-width: 100%; /* Ensures the image does not exceed its container's width */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Ensures no unwanted inline gaps */
+  object-fit: contain; /* Prevents image distortion */
+  border: 1px solid #ddd; /* Optional: Adds a border for better visibility */
+  border-radius: 8px; /* Optional: Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}

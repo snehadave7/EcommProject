@@ -1,0 +1,42 @@
+.menu-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #cdd0d5; /* Light gray hover background */
+  color: #000; /* Dark text */
+}
+
+.sidebar-heading:hover {
+  color: #0d6efd; /* Bootstrap primary blue */
+  transition: color 0.3s;
+}
+.offcanvas-custom {
+  background-color: #273b51; /* Custom background color */
+  color: #ffffff; /* Text color for better contrast */
+}
+
+.offcanvas-custom .offcanvas-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Light border for header */
+}
+
+.offcanvas-custom .menu-item {
+  color: #ffffff; /* Text color for menu items */
+}
+
+.offcanvas-custom .menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Highlight effect on hover */
+}
+
+.sidebar-custom {
+  background-color: #273b51; /* Custom background for desktop sidebar */
+  color: #ffffff; /* Text color */
+}
+
+.sidebar-custom .menu-item {
+  color: #ffffff; /* Menu text color */
+}
+
+.sidebar-custom .menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+}

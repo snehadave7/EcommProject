@@ -1,0 +1,14 @@
+.admin-header {
+  background-color: #273b51; /* Custom background color */
+  color: #ffffff; /* White text for better contrast */
+}
+
+.admin-header .btn-dark {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent dark button */
+  color: #ffffff; /* White button text */
+  border: none; /* Optional: Remove button border */
+}
+
+.admin-header .btn-dark:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background on hover */
+}

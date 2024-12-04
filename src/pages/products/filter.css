@@ -1,0 +1,85 @@
+.price-filter {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.slider {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product-card p {
+  color: #333;
+  font-size: 16px;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card button:disabled {
+  background-color: #ccc;
+}
+
+.bg-background {
+  background-color: #f9f9f9; /* Optional: Light background color for contrast */
+  border: 2px solid white; /* White border */
+  border-radius: 8px; /* Rounded corners for a cleaner look */
+  padding: 16px; /* Padding for inner spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
+}
+
+.p-4 {
+  padding: 16px; /* Ensures consistent padding within the component */
+}
+
+.border-b {
+  border-bottom: 1px solid #ddd; /* Divider for header and content */
+}
+
+.text-sm {
+  color: #333; /* Optional: Text color */
+}
+
+.text-blue-600 {
+  color: #2563eb; /* Accent color for checkboxes */
+}
+
+.space-y-4 {
+  gap: 16px; /* Space between sections */
+  display: flex;
+  flex-direction: column;
+}
